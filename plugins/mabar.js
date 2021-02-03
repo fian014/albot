@@ -11,9 +11,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╠═〘 𝑷𝑨𝑻𝑹𝑰𝑪𝑲 𝑩𝑶𝑻 〙 ═
 `.trim(), m)
 }
-handler.help = ['info']
+handler.help = ['Mabar']
 handler.tags = ['info']
-handler.command = /^(info)$/i
+handler.command = /^(Mabar)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
